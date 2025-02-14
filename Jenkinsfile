@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-       imagename = "tkibnyusuf/august_image_repo"
-       registryCredential = 'dockerpass'
+       imagename = "ajb101/ajbtomcatimage"
+       registryCredential = 'DockerHub'
        dockerImage = ''
            }
 
@@ -38,6 +38,7 @@ pipeline {
                script {
                     docker.withRegistry( '', registryCredential ) {
                     dockerImage.push("$BUILD_NUMBER")
+                    dockerImage.push('latest')
                                               }
                                     }
                              }
@@ -45,6 +46,7 @@ pipeline {
      stage('Remove Unused docker image') {
           steps{
               sh "docker rmi $imagename:$BUILD_NUMBER"
+              sh "docker rmi $imagename:latest"
                         }
             }  
    }
