@@ -1,12 +1,12 @@
 #<h1> CloudConvo Docker Project... </h1>
-#<h2> Also Merci!!! Good Luck and we are almost done with the course.Wow!!!!!!Bye for now Thankyou....</h2>
+#<h2> Also Merci!!! Good Luck and we are almost done with the course.Wow!!!!!!Bye for now Thankyou!....</h2>
 
 <html>
   <head>
     <title>Welcome to my web page</title>
   </head>
   <body bgcolor="#7FFF00">
-    <h1>Hello from CloudConvo Again</h1>
+    <h1>Hello from CloudConvo Again...Ye!</h1>
     <!--Form declaration. Must have an action attribute -->
         <form action="C:/JonnyJava/FirstJava.html/profile.html" method="post">
             <p>Let us learn something about your music lifestyle </p> <!--This control is for mutplie line comment-->
