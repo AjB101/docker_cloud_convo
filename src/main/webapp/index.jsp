@@ -5,7 +5,7 @@
   <head>
     <title>Welcome to my web page!</title>
   </head>
-  <body bgcolor="#9B1B30">
+  <body style="background-color: #9B1B30;">
     <h1>Hello from CloudConvo Again...Ye!</h1>
     <!--Form declaration. Must have an action attribute -->
         <form action="C:/JonnyJava/FirstJava.html/profile.html" method="post">
